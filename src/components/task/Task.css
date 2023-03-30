@@ -1,0 +1,33 @@
+.task__list__wrapper {
+  position: relative;
+  height: 100%;
+
+  background: white !important;
+  left: calc(50% - 757px / 2 - 249.5px);
+  width: 757px;
+  box-shadow: aliceblue;
+}
+.task__list__card {
+  position: relative;
+  margin-left: 24px;
+  width: 709px;
+  height: 228px;
+  background: white !important;
+  text-align: left;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+}
+.task__vopros {
+  position: relative;
+  bottom: 4px;
+  left: 72px;
+}
+.task__question {
+  position: relative;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 42px;
+  letter-spacing: -0.32px;
+  color: #000000;
+}

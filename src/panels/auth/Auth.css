@@ -1,0 +1,50 @@
+.auth__wrapper{
+  min-height: 100vh;
+  background: url('../../media/svg/AuthBG.svg') no-repeat  !important;
+  background-size: cover !important;
+  background-position: center center;
+}
+@media screen and (min-width: 992px) and (max-width: 1500.98px) {
+  .auth__wrapper {
+    background-size: cover !important;
+
+  }
+}
+.auth__form{
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 400px;
+  height: 340px;
+  background: white !important;
+  border-radius: 10px;
+}
+.auth__company__name{
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  color: white !important;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  align-items: center;
+}
+.auth__text__enter{
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 26px;
+  top: 25%;
+  left: 5%;
+}
+.auth__text__toenter{
+  position: absolute;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  top: 30%;
+  left: 5%;
+}

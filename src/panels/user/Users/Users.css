@@ -1,0 +1,30 @@
+.users__header__button {
+  position: absolute;
+  right: 30%;
+  top: 15px;
+  color: #4bb34b !important;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+}
+.users__list__wrapper {
+  position: relative;
+  height: 100%;
+
+  background: white !important;
+  left: calc(50% - 757px / 2 - 249.5px);
+  width: 757px;
+  box-shadow: aliceblue;
+}
+.users__list__card {
+  position: relative;
+  margin-left: 24px;
+  width: 709px;
+  height: 228px;
+  background: white !important;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+}

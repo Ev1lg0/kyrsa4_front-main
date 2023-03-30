@@ -1,0 +1,9 @@
+.tasks__button {
+  position: absolute;
+  height: 36px;
+  left: 35%;
+  bottom: 0;
+
+  background: #4bb34b !important;
+  border-radius: 10px;
+}

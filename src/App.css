@@ -1,0 +1,9 @@
+.app__info_icon {
+    margin-top: 3px;
+    cursor: pointer;
+}
+.app__info_title {
+    color: var(--text_primary);
+    margin-top: 4px;
+    margin-left: 6px;
+}

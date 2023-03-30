@@ -1,0 +1,19 @@
+.results__list__wrapper {
+  position: relative;
+  height: 100%;
+
+  background: white !important;
+  left: calc(50% - 757px / 2 - 249.5px);
+  width: 757px;
+  box-shadow: aliceblue;
+}
+.results__list__card {
+  position: relative;
+  margin-left: 24px;
+  width: 709px;
+  height: 228px;
+  background: white !important;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+}
