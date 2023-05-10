@@ -35,14 +35,14 @@
   top: 30%;
   right: 10%;
   width: 375px;
-  height: 475px;
+  height: 375px;
   background: white;
   border-radius: 40px 40px 10px 10px;
 }
 .rightInfo__profile__text {
   position: absolute;
   left: 10%;
-  top: 30%;
+  top: 40%;
   font-weight: 600;
   font-size: 20px;
   line-height: 50px;
@@ -52,7 +52,7 @@
   letter-spacing: 0.15px;
   color: #202022;
 }
-.rightInfo__button {
+.rightInfo__button__exit {
   position: absolute;
   left: 12px;
   width: 350px;

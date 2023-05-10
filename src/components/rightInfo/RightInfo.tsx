@@ -4,6 +4,7 @@ import { Button, Text } from '@vkontakte/vkui';
 import {
   MODAL_AUTH_DECLINE,
   MODAL_AUTH_SUCCESS,
+  MODAL_USER_INFO,
   PAGE_AUTH,
   PAGE_MAIN,
   PANEL_AUTH,
@@ -31,9 +32,10 @@ const RightInfo: React.FC<{ Name: string }> = ({ Name }) => {
           />
         </div>
         <Text className={'rightInfo__profile__text'}>{Name}</Text>
+
         <Button
           onClick={() => router.pushPage(PAGE_AUTH)}
-          className={'rightInfo__button'}
+          className={'rightInfo__button__exit'}
           after={<Icon24DoorArrowLeftOutline />}
         >
           Выход{' '}
