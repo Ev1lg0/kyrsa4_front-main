@@ -3,16 +3,19 @@ import { Button, Card, Div, Panel, Text } from '@vkontakte/vkui';
 import { IPanel } from 'interfaces/IPanel';
 import { useRouter } from '@happysanta/router';
 import './Main.css';
-import Menu from '../../components/menu/Menu';
 import RightInfo from '../../components/rightInfo/RightInfo';
 import { useRecoilValue } from 'recoil';
 import { authAtom, userAtom } from '../../state';
-import { Icon24BrainOutline } from '@vkontakte/icons';
-import { Icon36Users3Outline } from '@vkontakte/icons';
-import { Icon56UserCircleOutline } from '@vkontakte/icons';
-import { Icon56WriteOutline } from '@vkontakte/icons';
+import {
+  Icon24BrainOutline,
+  Icon36Users3Outline,
+  Icon56UserCircleOutline,
+  Icon56WriteOutline,
+  Icon56ArticleOutline,
+} from '@vkontakte/icons';
 import {
   MODAL_USER_INFO,
+  PAGE_LECTIONS,
   PAGE_RESULTS,
   PAGE_TASKS,
   PAGE_USER,
@@ -117,6 +120,20 @@ const Main = ({ id }: IPanel): JSX.Element => {
               <Button
                 className={'main__button'}
                 onClick={() => router.pushPage(PAGE_TASKS)}
+              >
+                Посмотреть
+              </Button>
+            </Card>
+            <Card className={'main__card'}>
+              <Icon56ArticleOutline
+                width={120}
+                height={120}
+                className={'main__cell__icons'}
+              />
+              <Text className={'main__cell__text'}> Лекции</Text>
+              <Button
+                className={'main__button'}
+                onClick={() => router.pushPage(PAGE_LECTIONS)}
               >
                 Посмотреть
               </Button>

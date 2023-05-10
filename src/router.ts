@@ -7,6 +7,7 @@ export const PAGE_AUTH: string = '/auth';
 export const PAGE_ONBOARDING: string = '/onboarding';
 export const PAGE_RESULTS: string = '/results';
 export const PAGE_TASKS: string = '/tasks';
+export const PAGE_LECTIONS: string = '/lections';
 // endregion
 
 // region PANELS
@@ -17,6 +18,7 @@ export const PANEL_RESULTS: string = 'panel_results';
 export const PANEL_AUTH: string = 'panel_auth';
 export const PANEL_ONBOARDING: string = 'panel_onboarding';
 export const PANEL_TASKS: string = 'panel_tasks';
+export const PANEL_LECTIONS: string = 'panel_lections';
 // endregion
 
 // region MODALS
@@ -51,6 +53,7 @@ const routes = {
   [PAGE_ONBOARDING]: new Page(PANEL_ONBOARDING, VIEW_ONBOARDING),
   [PAGE_RESULTS]: new Page(PANEL_RESULTS, VIEW_MAIN),
   [PAGE_TASKS]: new Page(PANEL_TASKS, VIEW_MAIN),
+  [PAGE_LECTIONS]: new Page(PANEL_LECTIONS, VIEW_MAIN),
 };
 
 export const router = new Router(routes);

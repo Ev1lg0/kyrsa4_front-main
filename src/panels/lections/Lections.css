@@ -1,0 +1,10 @@
+.lections__list__card {
+  position: relative;
+  margin-left: 24px;
+  width: 709px;
+  height: auto;
+  background: white !important;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+}

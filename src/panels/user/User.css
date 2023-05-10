@@ -1,12 +1,17 @@
 .user__header .vkuiPanelHeader__in {
-    background: #54ad32 !important;
+  background: #54ad32 !important;
 }
 .user__header .vkuiPanelHeader__content-in {
-    color: white !important;
+  color: white !important;
 }
 .user__data .h1 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
-.user__data .Text  {
-    margin-left: 10px;
+.user__data .Text {
+  margin-left: 10px;
+}
+.user__button__change {
+  width: 30px;
+  background: #54ad32;
+  margin: 10px;
 }

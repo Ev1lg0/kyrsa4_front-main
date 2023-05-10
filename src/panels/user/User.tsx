@@ -7,7 +7,6 @@ import {
   Text,
 } from '@vkontakte/vkui';
 import React, { useEffect, useState } from 'react';
-import Menu from '../../components/menu/Menu';
 import { IPanel } from '../../interfaces/IPanel';
 import { useParams, useRouter } from '@happysanta/router';
 import { UsersAttributes } from '../../interfaces/UsersAttributes';
@@ -73,7 +72,7 @@ const User = ({ id }: IPanel): JSX.Element => {
                 <Button
                   mode="primary"
                   size="s"
-                  style={{ margin: '10px', backgroundColor: '#54ad32' }}
+                  className={'user__button__change'}
                   onClick={() =>
                     router.pushModal(MODAL_UPDATE_USER, {
                       userId: `${user.id}`,

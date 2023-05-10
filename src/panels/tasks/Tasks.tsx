@@ -1,6 +1,5 @@
 import { Button, Panel, PanelHeader } from '@vkontakte/vkui';
 import React, { useEffect, useState } from 'react';
-import Menu from '../../components/menu/Menu';
 import { IPanel } from '../../interfaces/IPanel';
 import { TaskAttributes } from '../../interfaces/TaskAttributes';
 import { useParams, useRouter } from '@happysanta/router';

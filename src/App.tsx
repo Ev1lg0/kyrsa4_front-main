@@ -25,6 +25,7 @@ import {
   PANEL_RESULTS,
   PANEL_TASKS,
   PANEL_USERS,
+  PANEL_LECTIONS,
 } from './router';
 
 import Main from './panels/main/Main';
@@ -38,6 +39,7 @@ import Results from 'panels/results/Results';
 import Task from './panels/tasks/Tasks';
 import Users from './panels/user/Users/Users';
 import User from './panels/user/User';
+import Lections from './panels/lections/Lections';
 
 const App = (): JSX.Element => {
   const [appearance, setAppearance] = useState(null);
@@ -102,6 +104,7 @@ const App = (): JSX.Element => {
                   <Results id={PANEL_RESULTS} />
                   <Task id={PANEL_TASKS} />
                   <User id={PANEL_USER} />
+                  <Lections id={PANEL_LECTIONS} />
                 </View>
                 <View id={VIEW_ONBOARDING} activePanel={PANEL_ONBOARDING}>
                   <Main id={PANEL_ONBOARDING} />
