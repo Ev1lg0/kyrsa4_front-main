@@ -43,7 +43,6 @@ const Auth = ({ id }: IPanel): JSX.Element => {
     // Если все данные верны
     if (data.ok) {
       const res = await data.json();
-      console.log(`pedik ${res.id}`);
       setIsAuth(res);
       setUserId(res.id);
 
@@ -105,6 +104,11 @@ const Auth = ({ id }: IPanel): JSX.Element => {
             </Button>
           </FormItem>
         </FormLayout>
+        <div className={'auth__info'}>
+          По всем вопросам обращаться: <br />
+          По телефону: +79871642240 <br />
+          Почта: evil.sniperkz@gmail.com
+        </div>
       </div>
     </Panel>
   );

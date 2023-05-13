@@ -1,16 +1,15 @@
-.auth__wrapper{
+.auth__wrapper {
   min-height: 100vh;
-  background: url('../../media/svg/AuthBG.svg') no-repeat  !important;
+  background: url('../../media/svg/AuthBG.svg') no-repeat !important;
   background-size: cover !important;
   background-position: center center;
 }
 @media screen and (min-width: 992px) and (max-width: 1500.98px) {
   .auth__wrapper {
     background-size: cover !important;
-
   }
 }
-.auth__form{
+.auth__form {
   position: absolute;
   top: 20%;
   right: 10%;
@@ -19,7 +18,7 @@
   background: white !important;
   border-radius: 10px;
 }
-.auth__company__name{
+.auth__company__name {
   position: absolute;
   top: 15%;
   left: 15%;
@@ -30,7 +29,7 @@
   text-align: center;
   align-items: center;
 }
-.auth__text__enter{
+.auth__text__enter {
   position: absolute;
   color: white;
   font-weight: 600;
@@ -39,7 +38,7 @@
   top: 25%;
   left: 5%;
 }
-.auth__text__toenter{
+.auth__text__toenter {
   position: absolute;
   color: white;
   font-weight: 500;
@@ -47,4 +46,9 @@
   line-height: 26px;
   top: 30%;
   left: 5%;
+}
+.auth__info {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
