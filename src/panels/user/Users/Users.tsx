@@ -107,12 +107,7 @@ const Users = ({ id }: IPanel): JSX.Element => {
           <Icon24UserAddOutline
             width={20}
             height={16}
-            style={{
-              color: '#4BB34B',
-              position: 'absolute',
-              top: '5px',
-              right: '-40%',
-            }}
+            className={'users__add__user'}
           />
         </span>
         Пользователи
@@ -126,11 +121,7 @@ const Users = ({ id }: IPanel): JSX.Element => {
                 <Icon24UserCircleOutline
                   width={80}
                   height={80}
-                  style={{
-                    position: 'absolute',
-                    color: '#4BB34B',
-                    left: '60px',
-                  }}
+                  className={'users__list__card__icon'}
                 />
                 <h1>{`${user.FirstName + ' '} ${user.SecondName} ${
                   user.MiddleName

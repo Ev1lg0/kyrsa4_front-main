@@ -28,3 +28,14 @@
   border-radius: 10px;
   border: 0.5px solid rgba(0, 0, 0, 0.08);
 }
+.users__list__card__icon {
+  position: absolute;
+  color: #4bb34b;
+  left: 60px;
+}
+.users__add__user {
+  color: #4bb34b;
+  position: absolute;
+  top: 5px;
+  right: -40%;
+}

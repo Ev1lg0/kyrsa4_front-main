@@ -36,8 +36,6 @@ const Main = ({ id }: IPanel): JSX.Element => {
   const [isAuth] = useLocalStorage<any>('isAuth', false);
 
   const getUser = async () => {
-    console.log(1);
-
     const response = await fetch(
       `https://Kyrsa4back.ev1lg0.repl.co/api/users/${userId}`,
       {

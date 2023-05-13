@@ -124,7 +124,7 @@ const ModalUpdateUser = ({ id }: IModal): JSX.Element => {
         </FormItem>
         <FormItem>
           <Button
-            style={{ color: '#00b536' }}
+            style={{ background: '#00b536' }}
             size="l"
             stretched
             onClick={update}

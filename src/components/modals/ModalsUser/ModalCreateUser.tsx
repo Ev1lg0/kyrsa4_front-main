@@ -23,7 +23,7 @@ const ModalCreateUser = ({ id }: IModal): JSX.Element => {
   const [ProfessionName, setProfessionName] = useState(0);
   const router = useRouter();
 
-  const update = async () => {
+  const create = async () => {
     try {
       // Получение ФИО
       let FirstName, MiddleName, SecondName;
@@ -168,10 +168,10 @@ const ModalCreateUser = ({ id }: IModal): JSX.Element => {
         </FormItem>
         <FormItem>
           <Button
-            style={{ color: '#00b536' }}
+            style={{ background: '#00b536' }}
             size="l"
             stretched
-            onClick={update}
+            onClick={create}
             disabled={
               Adress.length === 0 ||
               PassportId.length === 0 ||
