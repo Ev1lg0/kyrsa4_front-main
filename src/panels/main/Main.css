@@ -51,3 +51,7 @@
   letter-spacing: 0.38px;
   color: #000000;
 }
+.main__header {
+  position: absolute;
+  left: 31%;
+}

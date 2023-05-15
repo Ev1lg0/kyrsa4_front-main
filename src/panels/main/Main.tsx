@@ -57,6 +57,7 @@ const Main = ({ id }: IPanel): JSX.Element => {
   }, []);
   return (
     <Panel id={id}>
+      <h1 className={'main__header'}>Главная страница </h1>
       <div style={{ marginTop: 150 }}>
         <div className={'main__wrapper'}>
           <div className={'main__wrapper__2'}>
